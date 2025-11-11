@@ -101,6 +101,11 @@ void Course::addStudent(const Student& s) {
     currentStudents++;
 }
 
+/* 
+    Code does not print anything on CLion, but prints the first 3 lines on https://www.onlinegdb.com/
+    Please trace it, thank you.
+*/
+
 int main() {
     Course* course = new Course("CS101", "Introduction to Programming", 3);
 
