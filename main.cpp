@@ -63,21 +63,20 @@ void Person::setId(int id) {
 
 void Person::display() {
     cout << "Name: " << name << endl;
-    cout << "ID: " << id << endl;
 }
 
 void Student::display() {
     cout << "Student Info: " << endl;
     Person::display();
-    cout << "Year level: " << yearLevel << endl;
+    cout << "Year: " << yearLevel << endl;
     cout << "Major: " << major << endl;
 }
 
 void Instructor::display() {
     cout << "Instructor Info: " << endl;
     Person::display();
-    cout << "Experience Years: " << experienceYears << endl;
     cout << "Department: " << department << endl;
+    cout << "Experience: " << experienceYears << endl;
 }
 
 /* Course Methods */
