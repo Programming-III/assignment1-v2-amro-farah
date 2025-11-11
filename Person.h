@@ -4,17 +4,21 @@
 #include <string>
 using namespace std;
 
-//#write Person class here
+class Person {
+private:
+    string name;
+    int id;
+public:
+    Person(string name, int id);
+    void display();
 
+    virtual void setName(string name);
+    virtual void setId(int id);
 
+    virtual string getName();
+    virtual int getId();
 
-
-
-
-
-
-
-
-
+    ~Person();
+};
 
 #endif
